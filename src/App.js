@@ -1,21 +1,21 @@
 import React from "react" 
+import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar.js"
-import Hero from "./components/Hero.js"
-import Featured from "./components/Featured.js"
-import Skills from "./components/Skills.js"
-import Secondproject from "./components/Secondproject.js"
+import Home from "./components/Home.js"
 import Footer from "./components/Footer.js"
+import Resume from "./components/Resume.js"
 import "./css/styles.css"
 
 export default function App(){
   return(
     <div className="main-page">
-      <h1>right now</h1>
       <Navbar />
-      <Hero />
-      <Featured />
-      <Skills />
-      <Secondproject />
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/resume" element={<Resume />}/>
+            
+        
+        </Routes>
       <Footer />
     </div>
   )

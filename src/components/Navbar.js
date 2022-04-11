@@ -1,9 +1,9 @@
 import React, {useRef, useEffect } from "react" 
 import gsap from "gsap"
-import { Link, Routes, Route } from "react-router-dom"
+import { Link } from "react-router-dom"
 import linkedin from "./images/linkedin-icon.svg"
 import github from "./images/github-icon.svg"
-import Resume from "./Resume.js"
+
 // import Skills from "./Skills.js"
 // import Featured from "./Featured.js"
 
@@ -34,9 +34,7 @@ export default function Navbar(){
             <li><Link className="resume" to="/resume">Resume</Link></li>
           </ul>
         </nav>
-        <Routes>
-          <Route path="/resume" element={<Resume />}/>
-        </Routes>
+        
 
         
         
