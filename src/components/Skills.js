@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-import js from "./images/custom js-logo.svg"
+import midTier from "./images/middle tier icon.svg"
 
 
 export default function Skills(){
@@ -13,16 +13,16 @@ export default function Skills(){
     const element = ref.current;
 
     gsap.from( element.querySelector(".cards"), {
-      scale: 0,
-      y: 200,
-      duration: 2,
-      opacity: 0,
-      stagger: 1,
       scrollTrigger: {
-        trigger: element.querySelector(".skills-container"),
+        trigger: element.querySelector(".skills"),
+        start: "170% 200%"
         
-        
-      }
+      },
+      scale: 0,
+      duration: 6,
+      y: 200,
+      opacity: 0,
+      
     })
   }, [])
   return(
@@ -31,11 +31,11 @@ export default function Skills(){
         <ul className="cards">
           <li className="transition2">
               <div className="icon-container one">
-                <img className="jsLogo" src={js} alt="javascript logo"/>
+                <img className="jsLogo" src={midTier} alt="middle tier logo"/>
               </div>
-              <p className="skill-title">Javascript</p>
+              <p className="skill-title">Middle Tier</p>
               <p className="featured-desc skill-desc">
-                Description on what kind of javascript skills i have.
+                Node Js, JavaScript, Express JWT
               </p>  
           </li>
           <li className="transition2">
@@ -44,7 +44,7 @@ export default function Skills(){
               </div>
               <p className="skill-title">FrontEnd</p>
               <p className="featured-desc skill-desc">
-                Description on what kind of frontend skills i have.
+                JavaScript, React, Mongoose, JSON Web Token, Bcrypt, CSS, SASS, HTML 5
               </p>
           </li>
           <li className="transition2">
@@ -53,7 +53,7 @@ export default function Skills(){
               </div>
               <p className="skill-title">BackEnd</p>
               <p className="featured-desc skill-desc">
-                Description on what kind of backend skills i have.
+                MongoDb, Express, Node Js
               </p>
           </li>
         </ul>

@@ -4,8 +4,9 @@ import {gsap} from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // assets
-import smith from "./images/smith.svg"
+// import smith from "./images/smith.svg"
 import green from "./images/green-watermark-logo.svg"
+import web from "./images/website protoType.svg"
 
 export default function Featured(){
 gsap.registerPlugin(ScrollTrigger);
@@ -65,14 +66,14 @@ useEffect(() => {
           <div className="inner transition2 div" id="box" >
             <p className="subtitle">Featured Project</p>
              {/* // decide later if you want to make this a link to another page in the website or a straight link to the actual website domain // */}
-            <Link className="featured-title" to="/" >Smith&SonPainting.com</Link>
+            <Link className="featured-title" to="/" >ExclusivePainting.com</Link>
             <p className="featured-desc">
-              In this project I used React.js, React Router Dom, Gsap, Mongoose, MongoDb, Express, etc. and so on.
+              In this project I designed a prototype first in Figma with a mobile and desktop application. Then i used React, Gsap, and SASS.
             </p>
           </div>
         </div>
         <div className="imgDiv"> 
-          <img  ref={img} className="paint" src={smith} alt="painting website" /> 
+          <img  ref={img} className="paint" src={web} alt="painting website" /> 
         </div> 
         
       

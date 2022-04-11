@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,mBAAmB;EAChC,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "resume.scss"
+    ],
+    "names": [],
+    "file": "resume.css"
+}

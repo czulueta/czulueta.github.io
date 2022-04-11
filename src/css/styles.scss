@@ -107,6 +107,7 @@ header{
     animation: circleAnim 1s infinite alternate-reverse;
 }
 
+
 @keyframes circleAnim {
     from{
         transform:translateY(0px);
@@ -198,6 +199,7 @@ section{
         }
         &.two{
             width: 8rem;
+            overflow-wrap: break-word;
             svg{
                 width: 50px;
                 height: 50px;
@@ -315,7 +317,7 @@ footer {
     }
     .skills-container ul{
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(3, 32%);
         grid-gap: 1em;
     }
  
@@ -333,6 +335,9 @@ footer {
 
             &.one{
                 width: 50px;
+                .jsLogo{
+                    height:49px;
+                }
                 
             }
             &.two{
@@ -454,12 +459,13 @@ footer {
             }
             .title{
                 position: relative;
+                
     
                 .check {
                     display: unset;
                     position: absolute;
                     width: 7%;
-                    top: 60%;
+                    top: 59%;
                     right: 49.5%;
                         
                 }
@@ -512,6 +518,11 @@ footer {
                 }
             }
         }
+        .imgDiv {
+            img{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+        }
     }
     .website-left{
         margin-left: -6em;
@@ -554,6 +565,14 @@ footer {
     }
     .featured {
         padding-top: 5em;
+        .left{
+            .inner{
+                .featured-desc{
+                    font-size: .9em;
+                    margin-right: 4em;
+                }
+            }
+        }
     }
     .website-left{
         margin-left: -6.4em;
@@ -686,11 +705,11 @@ footer {
         }
     }
     .featured {
-        .left {
-            .greenBars1{
+        
+        .left .greenBars1{
                 top: -1.3em;
-            }
         }
+        
     }
     .website-left{
         margin-left: -7.4em;
@@ -759,7 +778,7 @@ footer {
         
         ul {
             li {
-                .home{
+                .skil{
                     max-width: 100%;
                     height: auto;
                 }
@@ -871,6 +890,8 @@ footer {
             padding: 23em 25em 0em 25em;
             .hero-design {
                 margin-top: -5em;
+                width: 70.2em;
+                left: 25.2em;
             }
         }
     }
@@ -943,6 +964,9 @@ footer {
         }
         .website-container {
             margin-bottom: 15em;
+            .website-left{
+                margin-left: -5.4em;
+            }
         }
     }
     
@@ -966,6 +990,57 @@ footer {
         }
     }
 }
+@media only screen and (min-width: 2000px){
+    .hero {
+        .content {
+            padding: 15em 33em 0em 25em;
+            .title{
+                h1{
+                    margin-right: 8em;
+                }
+            }
+            .check{
+                top: 55%;
+                right: 55%;
+            }
+
+        }
+        .hero-design-container {
+            padding: 23em 25em 0em 25em;
+            .hero-design {
+                margin-top: -5em;
+                width: 74.2em;
+                left: 25.2em;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 2600px){
+    .hero {
+        .content {
+            padding: 15em 33em 0em 25em;
+            .title{
+                h1{
+                    margin-right: 8em;
+                }
+            }
+            .check{
+                top: 55%;
+                right: 55%;
+            }
+
+        }
+        .hero-design-container {
+            padding: 23em 25em 0em 25em;
+            .hero-design {
+                margin-top: -5em;
+                width: 117.2em;
+                left: 25.2em;
+            }
+        }
+    }
+}
+
 
 
 

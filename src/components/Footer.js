@@ -6,11 +6,11 @@ export default function Footer(){
   return(
     <div className="footer-container">
       <footer>
-          <Link className="name" to="/" >Cesar Zulueta</Link>
+          <Link onClick={() => ( window.scrollTo({ top: 0, behavior: "smooth"}))} className="name" to="/" >Cesar Zulueta</Link>
           <nav className="nav-links">
             <ul>
-              <li><Link className="home" to="/">Skills</Link></li>
-              <li><Link className="work" to="/work">Work</Link></li>
+              <li onClick={() => ( window.scrollTo({ top: 1350, behavior: "smooth"}))}><Link className="skils" to="/">Skills</Link></li>
+              <li onClick={() => ( window.scrollTo({ top: 850, behavior: "smooth"}))}><Link className="work" to="/work">Work</Link></li>
               <li><Link className="resume" to="/resume">Resume</Link></li>
             </ul>
           </nav>  
