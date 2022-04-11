@@ -10,7 +10,7 @@ import "./css/styles.css"
 export default function App(){
   return(
     <div className="main-page">
-      
+      <h1>right now</h1>
       <Navbar />
       <Hero />
       <Featured />
