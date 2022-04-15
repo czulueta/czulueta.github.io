@@ -1,5 +1,5 @@
 import React from "react" 
-import { Routes, Route, HashRouter } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar.js"
 import Home from "./components/Home.js"
 import Footer from "./components/Footer.js"
@@ -21,7 +21,7 @@ export default function App(){
   // }
   return(
     <div className="main-page" >
-      <HashRouter>
+  
         <Navbar className="navBar1" />
           
             <Routes>
@@ -33,7 +33,7 @@ export default function App(){
             </Routes>
           
         <Footer className="footer1" />
-      </HashRouter>
+      
     </div>
   )
 }
