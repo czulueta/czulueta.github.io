@@ -5,11 +5,13 @@ import App from "./App.js"
 
 
 render(
-  <HashRouter>
-    <Router>
+  
+  <Router>
+    <HashRouter>
       <App /> 
-    </Router>
-  </HashRouter>
+    </HashRouter>
+  </Router>
+  
   ,
   document.getElementById("root")
 )
