@@ -1,5 +1,5 @@
 import React from "react" 
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, HashRouter } from "react-router-dom"
 import Navbar from "./components/Navbar.js"
 import Home from "./components/Home.js"
 import Footer from "./components/Footer.js"
@@ -21,16 +21,19 @@ export default function App(){
   // }
   return(
     <div className="main-page" >
-      <Navbar className="navBar1" />
-     
-        <Routes>
+      <HashRouter>
+        <Navbar className="navBar1" />
           
-          <Route path="https://czulueta.github.io/portfolio" element={<Home />}/>
-          <Route path="https://czulueta.github.io/portfolio/resume" element={<Resume />}/>
+            <Routes>
+              
+              <Route path="/" element={<Home />}/>
+              <Route path="/resume" element={<Resume />}/>
+                
             
-        
-        </Routes>
-      <Footer className="footer1" />
+            </Routes>
+          
+        <Footer className="footer1" />
+      </HashRouter>
     </div>
   )
 }

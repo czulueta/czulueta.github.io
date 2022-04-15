@@ -26,12 +26,12 @@ export default function Navbar(){
   return(
     <div className="navbar-container" ref={ref}>
       <header className="header">
-          <Link className="name" to="https://czulueta.github.io/portfolio" >Cesar Zulueta</Link>
+          <Link className="name" to="/" >Cesar Zulueta</Link>
         <nav>
           <ul>
-            <li onClick={() => ( window.scrollTo({ top: 1350, behavior: "smooth"}))}><Link className="skil" to="/https://czulueta.github.io/portfolio">Skills</Link></li>
-            <li onClick={() => ( window.scrollTo({ top: 800, behavior: "smooth"}))}><Link className="work" to="https://czulueta.github.io/portfolio">Work</Link></li>
-            <li><Link className="resume" to="https://czulueta.github.io/resume">Resume</Link></li>
+            <li onClick={() => ( window.scrollTo({ top: 1350, behavior: "smooth"}))}><Link className="skil" to="/">Skills</Link></li>
+            <li onClick={() => ( window.scrollTo({ top: 800, behavior: "smooth"}))}><Link className="work" to="/">Work</Link></li>
+            <li><Link className="resume" to="/resume">Resume</Link></li>
           </ul>
         </nav>
         
