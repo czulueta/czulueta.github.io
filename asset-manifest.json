@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/czulueta/github.io/static/css/main.e941f514.chunk.css",
+    "main.js": "/czulueta/github.io/static/js/main.b1e19280.chunk.js",
+    "main.js.map": "/czulueta/github.io/static/js/main.b1e19280.chunk.js.map",
+    "runtime-main.js": "/czulueta/github.io/static/js/runtime-main.a56d51c0.js",
+    "runtime-main.js.map": "/czulueta/github.io/static/js/runtime-main.a56d51c0.js.map",
+    "static/js/2.79ddc08f.chunk.js": "/czulueta/github.io/static/js/2.79ddc08f.chunk.js",
+    "static/js/2.79ddc08f.chunk.js.map": "/czulueta/github.io/static/js/2.79ddc08f.chunk.js.map",
+    "e7e915313973ba1d49f9bb2a1998626e.js": "/czulueta/github.io/e7e915313973ba1d49f9bb2a1998626e.js",
+    "index.html": "/czulueta/github.io/index.html",
+    "precache-manifest.f772a6bbfc4a7ef835f90a6301b6b1a4.js": "/czulueta/github.io/precache-manifest.f772a6bbfc4a7ef835f90a6301b6b1a4.js",
+    "service-worker.js": "/czulueta/github.io/service-worker.js",
+    "static/css/main.e941f514.chunk.css.map": "/czulueta/github.io/static/css/main.e941f514.chunk.css.map",
+    "static/js/2.79ddc08f.chunk.js.LICENSE.txt": "/czulueta/github.io/static/js/2.79ddc08f.chunk.js.LICENSE.txt",
+    "static/media/github-icon.svg": "/czulueta/github.io/static/media/github-icon.898eb6a5.svg",
+    "static/media/green-check-icon.svg": "/czulueta/github.io/static/media/green-check-icon.6d2f5af8.svg",
+    "static/media/green-footer-icon.svg": "/czulueta/github.io/static/media/green-footer-icon.3e306ff6.svg",
+    "static/media/green-watermark-logo.svg": "/czulueta/github.io/static/media/green-watermark-logo.02ff02af.svg",
+    "static/media/linkedin-icon.svg": "/czulueta/github.io/static/media/linkedin-icon.b791c30b.svg",
+    "static/media/middle tier icon.svg": "/czulueta/github.io/static/media/middle tier icon.7b23f78c.svg",
+    "static/media/new-down-arrows.svg": "/czulueta/github.io/static/media/new-down-arrows.e0e06ffc.svg",
+    "static/media/resume.pdf": "/czulueta/github.io/static/media/resume.ed6fc0e7.pdf",
+    "static/media/website protoType.svg": "/czulueta/github.io/static/media/website protoType.e4e8617c.svg",
+    "static/media/website1.svg": "/czulueta/github.io/static/media/website1.f80f499d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a56d51c0.js",
+    "static/js/2.79ddc08f.chunk.js",
+    "static/css/main.e941f514.chunk.css",
+    "static/js/main.b1e19280.chunk.js"
+  ]
+}
