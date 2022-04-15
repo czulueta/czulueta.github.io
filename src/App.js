@@ -26,8 +26,8 @@ export default function App(){
           
             <Routes>
               
-              <Route path="/" element={<Home />}/>
-              <Route path="/resume" element={<Resume />}/>
+              <Route path="https://czulueta.github.io/portfolio" element={<Home />}/>
+              <Route path="https://czulueta.github.io/portfolio/resume" element={<Resume />}/>
                 
             
             </Routes>
