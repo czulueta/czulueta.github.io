@@ -5,7 +5,7 @@ import App from "./App.js"
 
 
 render(
-  <HashRouter basename="/hire/cesarzulueta">
+  <HashRouter hashType="noslash">
       <App /> 
   </HashRouter>
   ,
