@@ -196,6 +196,9 @@ section{
 
         &.one{
             width: 3rem;
+            .jsLogo{
+                height: 45px;
+            }
             
         }
         &.two{
@@ -262,6 +265,7 @@ footer {
         }
     }
 }
+
 
 @media only screen and (min-width: 743px){ 
     .hero{

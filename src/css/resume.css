@@ -33,4 +33,17 @@
   width: 80% !important;
   height: 100% !important;
 }
+
+.react-pdf__Page__annotations annotationLayer {
+  height: 0;
+}
+
+.react-pdf__Page__annotations annotationLayer section {
+  padding: 0px !important;
+}
+
+.react-pdf__Page__annotations annotationLayer .linkAnnotation {
+  padding: 0px !important;
+  height: 0px !important;
+}
 /*# sourceMappingURL=resume.css.map */
