@@ -141,6 +141,7 @@ section{
         top: -5rem;
         z-index: -1;
         
+        
     }
 }
 .subtitle{
@@ -171,6 +172,7 @@ section{
     img {
         border-radius: 1em;
         margin-bottom: 2em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
@@ -198,6 +200,7 @@ section{
             width: 3rem;
             .jsLogo{
                 height: 45px;
+                width: 45px;
             }
             
         }
@@ -235,6 +238,7 @@ section{
 .website-container a img{
     border-radius: 1em;
     margin-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .footer-container{
     background: $blue;
